@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>芭蕾舞服-款式分类、选购要点与穿着保养指南</title>
+<meta name="description" content="介绍芭蕾舞服的常见款式与分类，包括连体衣、芭蕾裙、紧身裤、足尖鞋与配件的选择思路、尺码与面料要点、不同练习阶段的搭配建议以及清洗保养与常见问题解答。">
+<meta name="keywords" content="芭蕾舞服,芭蕾连体衣,芭蕾舞裙,芭蕾紧身裤,足尖鞋,芭蕾练功服,舞蹈服选购">
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+<style>
+:root{
+  --rose:#c96a86;
+  --rose-deep:#9c4661;
+  --blush:#fbeef2;
+  --cream:#fffafb;
+  --ink:#33272c;
+  --ink-soft:#6b5a61;
+  --line:#f0dbe2;
+  --gold:#c9a86a;
+  --shadow:0 10px 30px rgba(156,70,97,.10);
+  --radius:16px;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  color:var(--ink);
+  background:var(--cream);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none;}
+img{max-width:100%;display:block;}
+.wrap{width:min(1180px,92%);margin:0 auto;}
+
+/* ===== 顶部 ===== */
+.topbar{
+  background:linear-gradient(90deg,var(--rose-deep),var(--rose));
+  color:#fff;
+  font-size:.82rem;
+  letter-spacing:.04em;
+  text-align:center;
+  padding:7px 12px;
+}
+header.site-head{
+  position:sticky;top:0;z-index:50;
+  background:rgba(255,250,251,.94);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+}
+.head-inner{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:18px;padding:14px 0;flex-wrap:wrap;
+}
+.logo{display:flex;align-items:center;gap:10px;}
+.logo-mark{
+  width:40px;height:40px;border-radius:50%;
+  background:radial-gradient(circle at 32% 30%,#fff 0 18%,var(--rose) 19% 100%);
+  box-shadow:inset 0 0 0 2px rgba(255,255,255,.6),var(--shadow);
+  flex:0 0 auto;
+}
+.logo-text b{display:block;font-size:1.16rem;letter-spacing:.06em;}
+.logo-text span{font-size:.72rem;color:var(--ink-soft);letter-spacing:.18em;}
+nav.main-nav ul{display:flex;gap:26px;list-style:none;font-size:.94rem;}
+nav.main-nav a{padding:6px 0;position:relative;color:var(--ink-soft);}
+nav.main-nav a::after{
+  content:"";position:absolute;left:0;bottom:0;width:0;height:2px;
+  background:var(--rose);transition:width .28s ease;
+}
+nav.main-nav a:hover{color:var(--rose-deep);}
+nav.main-nav a:hover::after{width:100%;}
+.head-cta{
+  display:inline-block;padding:9px 20px;border-radius:999px;
+  background:var(--rose);color:#fff;font-size:.88rem;
+  box-shadow:0 6px 16px rgba(201,106,134,.35);
+  transition:transform .2s ease,background .2s ease;
+}
+.head-cta:hover{background:var(--rose-deep);transform:translateY(-1px);}
+
+/* ===== 首屏 ===== */
+.hero{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(circle at 82% 18%,rgba(201,106,134,.20),transparent 46%),
+    radial-gradient(circle at 12% 88%,rgba(201,168,106,.16),transparent 50%),
+    linear-gradient(160deg,#fff6f9,#fdf1f0 60%,#fbf7f2);
+  border-bottom:1px solid var(--line);
+}
+.hero-inner{
+  display:grid;grid-template-columns:1.15fr .85fr;
+  gap:48px;align-items:center;padding:64px 0 70px;
+}
+.hero h1{
+  font-size:clamp(1.85rem,3.6vw,2.7rem);
+  line-height:1.35;letter-spacing:.01em;
+}
+.hero h1 em{
+  font-style:normal;color:var(--rose-deep);
+  border-bottom:3px solid rgba(201,168,106,.55);
+}
+.hero p.lead{
+  margin-top:18px;color:var(--ink-soft);font-size:1.03rem;max-width:44em;
+}
+.hero-tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px;}
+.hero-tags span{
+  font-size:.82rem;padding:6px 14px;border-radius:999px;
+  background:#fff;border:1px solid var(--line);color:var(--rose-deep);
+}
+.hero-actions{display:flex;gap:14px;margin-top:28px;flex-wrap:wrap;}
+.btn{
+  display:inline-block;padding:12px 26px;border-radius:999px;
+  font-size:.92rem;transition:all .22s ease;border:1px solid transparent;
+}
+.btn-primary{background:var(--rose-deep);color:#fff;box-shadow:0 10px 22px rgba(156,70,97,.28);}
+.btn-primary:hover{background:#843a51;transform:translateY(-2px);}
+.btn-ghost{background:#fff;border-color:var(--line);color:var(--rose-deep);}
+.btn-ghost:hover{border-color:var(--rose);background:var(--blush);}
+
+.hero-visual{
+  background:#fff;border-radius:26px;padding:26px;
+  box-shadow:var(--shadow);border:1px solid var(--line);
+}
+.hero-visual h3{font-size:1rem;margin-bottom:16px;color:var(--rose-deep);letter-spacing:.05em;}
+.hero-visual ul{list-style:none;display:grid;gap:12px;}
+.hero-visual li{
+  display:flex;gap:12px;align-items:flex-start;
+  font-size:.9rem;color:var(--ink-soft);
+  padding-bottom:12px;border-bottom:1px dashed var(--line);
+}
+.hero-visual li:last-child{border-bottom:none;padding-bottom:0;}
+.dot{
+  flex:0 0 auto;width:22px;height:22px;border-radius:50%;
+  background:var(--blush);color:var(--rose-deep);
+  font-size:.72rem;display:grid;place-items:center;font-weight:700;margin-top:3px;
+}
+
+/* ===== 通用区块 ===== */
+section.block{padding:66px 0;}
+section.block.alt{background:#fdf4f6;}
+.sec-head{margin-bottom:34px;max-width:56em;}
+.sec-head .eyebrow{
+  font-size:.76rem;letter-spacing:.24em;color:var(--gold);
+  text-transform:uppercase;display:block;margin-bottom:8px;
+}
+.sec-head h2{font-size:clamp(1.4rem,2.4vw,1.85rem);line-height:1.4;}
+.sec-head p{margin-top:12px;color:var(--ink-soft);font-size:.96rem;}
+
+/* 分类卡片 */
+.grid-cat{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px;}
+.cat-card{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  padding:26px 24px;transition:transform .25s ease,box-shadow .25s ease;
+}
+.cat-card:hover{transform:translateY(-4px);box-shadow:var(--shadow);}
+.cat-card .num{
+  font-size:.74rem;letter-spacing:.2em;color:var(--rose);font-weight:700;
+}
+.cat-card h3{font-size:1.08rem;margin:10px 0 10px;}
+.cat-card p{font-size:.9rem;color:var(--ink-soft);}
+.cat-card ul{margin-top:14px;padding-left:18px;font-size:.86rem;color:var(--ink-soft);}
+.cat-card li{margin-bottom:5px;}
+
+/* 选购要点 */
+.tips-layout{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:start;}
+.tip-list{display:grid;gap:18px;}
+.tip{
+  background:#fff;border-left:4px solid var(--rose);border-radius:0 12px 12px 0;
+  padding:18px 22px;box-shadow:0 4px 14px rgba(156,70,97,.06);
+}
+.tip h3{font-size:1rem;margin-bottom:6px;}
+.tip p{font-size:.9rem;color:var(--ink-soft);}
+.side-panel{
+  background:linear-gradient(155deg,#fff,#fdf1f4);
+  border:1px solid var(--line);border-radius:var(--radius);
+  padding:26px;box-shadow:var(--shadow);
+}
+.side-panel h3{font-size:1.05rem;margin-bottom:14px;color:var(--rose-deep);}
+.size-table{width:100%;border-collapse:collapse;font-size:.85rem;}
+.size-table th,.size-table td{
+  padding:9px 8px;text-align:center;border-bottom:1px solid var(--line);
+}
+.size-table th{background:var(--blush);color:var(--rose-deep);font-weight:600;}
+.size-table td{color:var(--ink-soft);}
+.side-note{margin-top:16px;font-size:.8rem;color:var(--ink-soft);}
+
+/* 阶段搭配 */
+.stage-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px;}
+.stage{
+  background:#fff;border-radius:var(--radius);border:1px solid var(--line);
+  padding:24px;position:relative;overflow:hidden;
+}
+.stage::before{
+  content:"";position:absolute;top:0;left:0;width:100%;height:4px;
+  background:linear-gradient(90deg,var(--rose),var(--gold));
+}
+.stage h3{font-size:1rem;margin-bottom:6px;}
+.stage .lv{font-size:.76rem;color:var(--gold);letter-spacing:.16em;margin-bottom:10px;display:block;}
+.stage p{font-size:.88rem;color:var(--ink-soft);}
+.stage ul{margin-top:12px;padding-left:18px;font-size:.85rem;color:var(--ink-soft);}
+.stage li{margin-bottom:4px;}
+
+/* 保养 */
+.care-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;}
+.care{
+  background:#fff;border:1px dashed var(--line);border-radius:var(--radius);
+  padding:22px;font-size:.9rem;color:var(--ink-soft);
+}
+.care b{display:block;color:var(--ink);margin-bottom:8px;font-size:.98rem;}
+
+/* FAQ */
+.faq{display:grid;gap:14px;max-width:900px;}
+details{
+  background:#fff;border:1px solid var(--line);border-radius:12px;
+  padding:16px 20px;transition:box-shadow .2s ease;
+}
+details[open]{box-shadow:var(--shadow);}
+summary{
+  cursor:pointer;font-size:.97rem;font-weight:600;list-style:none;
+  display:flex;justify-content:space-between;gap:14px;align-items:center;
+}
+summary::-webkit-details-marker{display:none;}
+summary::after{content:"+";color:var(--rose);font-size:1.2rem;line-height:1;}
+details[open] summary::after{content:"–";}
+details p{margin-top:12px;font-size:.9rem;color:var(--ink-soft);}
+
+/* 页脚 */
+footer.site-foot{
+  background:#3a2b31;color:#e8d9df;padding:52px 0 24px;font-size:.88rem;
+}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:34px;}
+.foot-grid h4{font-size:.95rem;margin-bottom:14px;color:#fff;letter-spacing:.06em;}
+.foot-grid p{color:#c3aeb7;font-size:.85rem;line-height:1.85;}
+.foot-grid ul{list-style:none;display:grid;gap:9px;}
+.foot-grid a{color:#c3aeb7;transition:color .2s ease;}
+.foot-grid a:hover{color:#fff;}
+.foot-bottom{
+  margin-top:34px;padding-top:18px;border-top:1px solid rgba(255,255,255,.12);
+  text-align:center;font-size:.8rem;color:#a8939c;
+}
+
+/* 响应式 */
+@media (max-width:960px){
+  .hero-inner{grid-template-columns:1fr;gap:34px;padding:46px 0 54px;}
+  .tips-layout{grid-template-columns:1fr;}
+  .foot-grid{grid-template-columns:1fr 1fr;}
+}
+@media (max-width:680px){
+  .head-inner{justify-content:center;text-align:center;}
+  nav.main-nav ul{gap:16px;font-size:.88rem;flex-wrap:wrap;justify-content:center;}
+  section.block{padding:48px 0;}
+  .foot-grid{grid-template-columns:1fr;gap:26px;}
+  .hero-visual{padding:20px;}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">芭蕾舞服选购参考 · 款式分类 · 尺码与面料 · 清洗保养提示</div>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <div class="logo">
+      <div class="logo-mark" aria-hidden="true"></div>
+      <div class="logo-text">
+        <b>芭蕾舞服指南</b>
+        <span>BALLET WEAR</span>
+      </div>
+    </div>
+    <nav class="main-nav" aria-label="主导航">
+      <ul>
+        <li><a href="#category">款式分类</a></li>
+        <li><a href="#choose">选购要点</a></li>
+        <li><a href="#stage">阶段搭配</a></li>
+        <li><a href="#care">清洗保养</a></li>
+        <li><a href="#faq">常见问题</a></li>
+      </ul>
+    </nav>
+    <a class="head-cta" href="#choose">查看选购建议</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- 首屏 -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div>
+        <h1>芭蕾舞服怎么选？从<em>连体衣、纱裙到足尖鞋</em>的一次说清</h1>
+        <p class="lead">
+          芭蕾舞服既是练习时的功能装备，也影响动作的呈现与身体的线条观察。不同舞种阶段、课堂要求和个人体型，对连体衣的袖型、裙型、面料弹性和鞋款的要求都不一样。本页按款式分类、尺码面料、阶段搭配和日常保养四个方向整理思路，帮助你在购买前把关键点想清楚。
+        </p>
+        <div class="hero-tags">
+          <span>连体练功衣</span>
+          <span>芭蕾纱裙</span>
+          <span>紧身裤与袜</span>
+          <span>足尖鞋与软鞋</span>
+          <span>护具与配件</span>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#category">先看款式分类</a>
+          <a class="btn btn-ghost" href="#faq">直接看常见问题</a>
+        </div>
+      </div>
+      <aside class="hero-visual">
+        <h3>购买前先确认这几点</h3>
+        <ul>
+          <li><span class="dot">1</span><span>课堂是否有统一的颜色与款式要求，避免买回来不合规。</span></li>
+          <li><span class="dot">2</span><span>以实际胸围、腰围、臀围和躯干长度对照尺码表，而不是只看身高体重。</span></li>
+          <li><span class="dot">3</span><span>面料弹力与厚度决定贴合度，过松影响观察动作，过紧影响呼吸与伸展。</span></li>
+          <li><span class="dot">4</span><span>足尖鞋通常需要试穿并由老师确认，不建议自行盲目选购。</span></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 款式分类 -->
+  <section class="block" id="category">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Category</span>
+        <h2>芭蕾舞服的主要款式分类</h2>
+        <p>芭蕾舞服并不是单件衣物，而是一整套搭配。了解每一类单品的作用，才能按课堂需求组合出合适的穿着方案。</p>
+      </div>
+      <div class="grid-cat">
+
+        <article class="cat-card">
+          <span class="num">01</span>
+          <h3>连体练功衣（Leotard）</h3>
+          <p>芭蕾练功服的核心单品，贴身包裹躯干，便于老师观察肌肉发力与身体线条。</p>
+          <ul>
+            <li>袖型：无袖、吊带、短袖、长袖</li>
+            <li>领型：圆领、V 领、高领、露背款</li>
+            <li>常见面料：棉氨纶混纺、锦纶氨纶、微绒面料</li>
+          </ul>
+        </article>
+
+        <article class="cat-card">
+          <span class="num">02</span>
+          <h3>芭蕾纱裙（Tutu / Skirt）</h3>
+          <p>分为课堂练习用的软纱裙与舞台演出用的硬纱裙，前者轻便，后者讲求造型支撑。</p>
+          <ul>
+            <li>软纱裙：日常课堂、基础训练</li>
+            <li>半身纱裙：可搭配任意连体衣</li>
+            <li>硬纱裙：演出与比赛，需专业定制</li>
+          </ul>
+        </article>
+
+        <article class="cat-card">
+          <span class="num">03</span>
+          <h3>紧身裤与芭蕾袜</h3>
+          <p>覆盖腿部，帮助保持肌肉温度，同时让腿部线条在镜中更清晰。</p>
+          <ul>
+            <li>连脚款：包裹脚部，适合软鞋训练</li>
+            <li>踩脚款：脚部可露出，穿脱方便</li>
+            <li>七分与九分款：按季节与课程选择</li>
+          </ul>
+        </article>
+
+        <article class="cat-card">
+          <span class="num">04</span>
+          <h3>芭蕾鞋类</h3>
+          <p>软鞋用于日常训练，足尖鞋用于足尖训练，两者不能互相替代。</p>
+          <ul>
+            <li>软底芭蕾鞋：帆布或皮革鞋面</li>
+            <li>足尖鞋：需专业试穿与老师确认</li>
+            <li>保暖靴与护踝：热身和休息时使用</li>
+          </ul>
+        </article>
+
+        <article class="cat-card">
+          <span class="num">05</span>
+          <h3>配件与护具</h3>
+          <p>辅助训练与保护身体的小件装备，按实际需要逐步添置即可。</p>
+          <ul>
+            <li>发网、发夹与芭蕾发圈</li>
+            <li>护膝、护踝、脚趾保护套</li>
+            <li>保暖腿套、短外套</li>
+          </ul>
+        </article>
+
+        <article class="cat-card">
+          <span class="num">06</span>
+          <h3>男舞者练功服</h3>
+          <p>结构与女款不同，通常以紧身上衣搭配紧身裤或短裤为主。</p>
+          <ul>
+            <li>紧身 T 恤与背心</li>
+            <li>芭蕾紧身裤、舞蹈短裤</li>
+            <li>支撑型内裤与护具</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 选购要点 -->
+  <section class="block alt" id="choose">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Buying Guide</span>
+        <h2>选购芭蕾舞服的实用要点</h2>
+        <p>价格不是唯一标准，合身度、面料弹性和课堂要求往往更影响使用体验。以下要点按重要性排列，可逐条核对。</p>
+      </div>
+
+      <div class="tips-layout">
+        <div class="tip-list">
+          <div class="tip">
+            <h3>一、先确认课堂的统一要求</h3>
+            <p>多数芭蕾课堂会规定练功衣颜色、袖型和纱裙款式，考级与演出还有更细的着装规范。购买前向老师或机构确认，可以避免重复消费。</p>
+          </div>
+          <div class="tip">
+            <h3>二、按三围和躯干长度选尺码</h3>
+            <p>芭蕾舞服需要贴身，尺码偏差会直接影响穿着。建议量取胸围、腰围、臀围以及从肩点到裆部的躯干长度，再对照品牌尺码表，不要只参考身高。</p>
+          </div>
+          <div class="tip">
+            <h3>三、关注面料的弹力与回弹</h3>
+            <p>氨纶含量较高的面料贴合度和回弹性更好，适合高强度训练；棉质比例高的款式更透气亲肤，但弹力相对有限。可根据季节与课程强度取舍。</p>
+          </div>
+          <div class="tip">
+            <h3>四、缝线与肩带结构要看清</h3>
+            <p>肩带接缝、裆部拼接和侧缝是受力较多的位置，检查走线是否平整、有无多余线头，能减少训练中开线的风险。</p>
+          </div>
+          <div class="tip">
+            <h3>五、足尖鞋务必试穿</h3>
+            <p>足尖鞋的型号、鞋楦宽度和硬度差异很大，需要结合脚型、脚趾长度与足弓力量选择，并由有经验的老师确认后才能用于足尖训练。</p>
+          </div>
+          <div class="tip">
+            <h3>六、预留成长与替换空间</h3>
+            <p>处于生长发育期的学员，尺码变化较快。可以优先选择弹力较好的基础款，把预算更多放在鞋类等对合脚度要求更高的单品上。</p>
+          </div>
+        </div>
+
+        <aside class="side-panel">
+          <h3>尺码测量参考维度</h3>
+          <table class="size-table">
+            <thead>
+              <tr><th>测量项</th><th>位置说明</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>胸围</td><td>胸部最丰满处水平一周</td></tr>
+              <tr><td>腰围</td><td>腰部最细处水平一周</td></tr>
+              <tr><td>臀围</td><td>臀部最丰满处水平一周</td></tr>
+              <tr><td>躯干长</td><td>肩点经裆部到肩点</td></tr>
+              <tr><td>脚长</td><td>站立时脚跟到最长脚趾</td></tr>
+            </tbody>
+          </table>
+          <p class="side-note">
+            提示：不同品牌的尺码标准并不统一，表中维度仅作测量参考。下单前请以对应品牌提供的尺码表为准，如介于两个尺码之间，可结合面料弹力判断。
+          </p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- 阶段搭配 -->
+  <section class="block" id="stage">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Stage</span>
+        <h2>不同练习阶段的搭配思路</h2>
+        <p>随着训练内容推进，对舞服的功能要求会发生变化。以下是按阶段划分的一般性搭配方向，具体仍以所在课堂的规定为准。</p>
+      </div>
+      <div class="stage-grid">
+        <article class="stage">
+          <span class="lv">启蒙与入门</span>
+          <h3>舒适为先</h3>
+          <p>以基础软鞋、连体衣和软纱裙为主，重点在活动自如与穿脱方便。</p>
+          <ul>
+            <li>无袖或短袖连体衣</li>
+            <li>连脚紧身裤</li>
+            <li>帆布软底鞋</li>
+          </ul>
+        </article>
+        <article class="stage">
+          <span class="lv">基础训练</span>
+          <h3>贴合与观察</h3>
+          <p>动作幅度加大，需要更好的弹力与贴合度，便于老师纠正姿态。</p>
+          <ul>
+            <li>弹力较好的连体衣</li>
+            <li>可拆肩带或露背款</li>
+            <li>备用一双软鞋轮换</li>
+          </ul>
+        </article>
+        <article class="stage">
+          <span class="lv">足尖准备</span>
+          <h3>足部保护加强</h3>
+          <p>在老师评估通过后进入足尖训练，需重点考虑鞋款与脚趾保护。</p>
+          <ul>
+            <li>专业试穿足尖鞋</li>
+            <li>脚趾保护套与护垫</li>
+            <li>保暖腿套用于热身</li>
+          </ul>
+        </article>
+        <article class="stage">
+          <span class="lv">演出与比赛</span>
+          <h3>造型与统一</h3>
+          <p>服装需符合剧目与团队要求，重视整体统一与舞台呈现效果。</p>
+          <ul>
+            <li>定制或指定款纱裙</li>
+            <li>统一色号与款式</li>
+            <li>提前试穿并预留调整时间</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 保养 -->
+  <section class="block alt" id="care">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Care</span>
+        <h2>芭蕾舞服的清洗与日常保养</h2>
+        <p>舞服多为弹性面料，清洗方式不当会加速松垮、起球和褪色。养成正确的清洗与收纳习惯，可以明显延长使用周期。</p>
+      </div>
+      <div class="care-grid">
+        <div class="care">
+          <b>及时清洗，避免久放</b>
+          训练后汗液和皮脂会残留在纤维中，建议当天用冷水或温水轻柔手洗，不要长时间浸泡。
+        </div>
+        <div class="care">
+          <b>冷水手洗、少用机洗</b>
+          机洗的拉扯容易让弹性面料变形。如必须机洗，请使用洗衣袋并选择轻柔模式，避免与拉链、钩扣类衣物混洗。
+        </div>
+        <div class="care">
+          <b>不要使用漂白剂与热水</b>
+          含氯漂白剂和高温会损伤氨纶纤维，导致面料发硬、失去弹性，也会让深色款明显褪色。
+        </div>
+        <div class="care">
+          <b>阴凉处平铺晾干</b>
+          避免阳光直晒和烘干机高温，平铺或对折悬挂晾干，可以减少肩带被拉长的情况。
+        </div>
+        <div class="care">
+          <b>纱裙单独收纳</b>
+          纱裙容易被勾丝，建议单独装袋平放，不要与拉链、魔术贴等硬质物品挤压在一起。
+        </div>
+        <div class="care">
+          <b>鞋类通风防潮</b>
+          软鞋和足尖鞋使用后放在通风处阴干，避免闷在包里产生异味；鞋面有污渍时用湿布轻擦即可。
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="block" id="faq">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">FAQ</span>
+        <h2>关于芭蕾舞服的常见问题</h2>
+        <p>以下是购买和使用过程中较常被问到的问题，答案以一般情况为准，具体请结合所在课堂的要求判断。</p>
+      </div>
+      <div class="faq">
+        <details open>
+          <summary>芭蕾舞服一定要买紧身的吗？</summary>
+          <p>练功衣贴身的主要目的是方便老师观察肌肉发力和身体线条，因此通常要求合身而非宽松。但“贴身”不等于“勒紧”，穿着后应能正常呼吸、抬臂和弯腰，没有明显压迫感或勒痕。</p>
+        </details>
+        <details>
+          <summary>连体衣里面还需要穿内衣吗？</summary>
+          <p>多数练功衣本身带有一定的支撑和覆盖结构，是否需要额外穿着取决于个人习惯与课堂规定。如果需要，可选择无痕、肤色或与舞服同色的款式，避免肩带外露影响整体观感。</p>
+        </details>
+        <details>
+          <summary>初学者需要买足尖鞋吗？</summary>
+          <p>通常不需要。足尖训练需要一定的足部力量和身体控制能力，一般由老师在评估后安排开始时间。在未获得老师确认前，不建议自行购买和使用足尖鞋。</p>
+        </details>
+        <details>
+          <summary>纱裙和连体衣必须颜色一致吗？</summary>
+          <p>取决于课堂或演出要求。日常训练中搭配相对自由，考级、比赛和演出则通常有明确的颜色与款式规定，购买前最好先确认清楚。</p>
+        </details>
+        <details>
+          <summary>舞服穿多久需要更换？</summary>
+          <p>没有固定周期，主要看面料是否松垮、缝线是否开线、颜色是否明显褪色以及是否影响穿着舒适度。出现明显变形或弹性下降时，就应考虑更换。</p>
+        </details>
+        <details>
+          <summary>网购舞服怎么降低退换风险？</summary>
+          <p>下单前仔细核对尺码表与面料成分，优先选择支持退换的渠道，收到后先试穿确认合身度，再剪掉吊牌并清洗。试穿时注意保持衣物整洁，以免影响退换。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>芭蕾舞服指南</h4>
+        <p>围绕芭蕾舞服的款式分类、尺码选择、阶段搭配与清洗保养整理实用信息，帮助学员与家长在购买和使用前做出更清晰的判断。</p>
+      </div>
+      <div>
+        <h4>内容导航</h4>
+        <ul>
+          <li><a href="#category">款式分类</a></li>
+          <li><a href="#choose">选购要点</a></li>
+          <li><a href="#stage">阶段搭配</a></li>
+          <li><a href="#care">清洗保养</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>温馨提示</h4>
+        <ul>
+          <li>课堂着装以老师要求为准</li>
+          <li>足尖鞋需专业试穿确认</li>
+          <li>尺码以品牌尺码表为准</li>
+          <li>面料信息以商品标注为准</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">本页内容为一般性参考信息，不构成专业训练或医疗建议。</div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var links = document.querySelectorAll('nav.main-nav a[href^="#"]');
+  links.forEach(function(a){
+    a.addEventListener('click',function(e){
+      var id = a.getAttribute('href').slice(1);
+      var target = document.getElementById(id);
+      if(target){
+        e.preventDefault();
+        var top = target.getBoundingClientRect().top + window.pageYOffset - 70;
+        window.scrollTo({top:top,behavior:'smooth'});
+      }
+    });
+  });
+})();
+</script>
+
+</body>
+            </html>
